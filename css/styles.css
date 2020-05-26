@@ -33,6 +33,7 @@ html {
 
 .ancor {
   text-decoration: none;
+  cursor: pointer;
 }
 
 img {
@@ -72,22 +73,7 @@ body {
  
 }
 
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-    to right, 
-    rgba(47, 48, 58, 0.8),
-    rgba(47, 48, 58, 0.8)
-  ),
-  url('../images/Header.jpg');
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 /* Header */
 
@@ -183,6 +169,14 @@ header {
   color: var(--accent-text-color);
 }
 
+.site-auth .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #F5F4FA;
+}
+
+
 /* Hero */
 .hero {
   text-align: center;
@@ -199,6 +193,25 @@ header {
   text-transform: uppercase;
   color: var(--main-title-color);
   background-color: #2196F3; /* will be removed later */
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right, 
+    rgba(47, 48, 58, 0.8),
+    rgba(47, 48, 58, 0.8)
+  ),
+  url('../images/Header.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: black;
 }
 
 /* Buttons */
