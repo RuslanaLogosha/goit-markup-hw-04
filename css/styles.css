@@ -493,6 +493,41 @@ header {
   margin-left: 30px;
 }
 
+.customers-item::before {
+  content: "";
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.client1::before {
+  background-image: url('../images/client1.svg');
+}
+
+.client2::before {
+  background-image: url('../images/client2.svg');
+}
+
+.client3::before {
+  background-image: url('../images/client3.svg');
+}
+
+.client4::before {
+  background-image: url('../images/client4.svg');
+}
+
+.client5::before {
+  background-image: url('../images/client5.svg');
+}
+
+.client6::before {
+  background-image: url('../images/client6.svg');
+}
+
 /* Footer */
 /* Adress  */
 .footer {
