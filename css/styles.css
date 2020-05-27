@@ -446,6 +446,29 @@ header {
   margin-left: 10px;
 }
 
+.icons-list .social::before {
+  content: "";
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+}
+
+.icons-list .insta::before {
+  background-image: url('../images/insta.svg');
+}
+
+.icons-list .twitter::before {
+  background-image: url('../images/twit.svg');
+}
+
+.icons-list .facebook::before {
+  background-image: url('../images/fb.svg');
+}
+
+.icons-list .linkedin::before {
+  background-image: url('../images/in.svg');
+}
 
 
 /* Regular customers */
@@ -525,13 +548,6 @@ header {
 }
 
 /* Connect social  */
-.icons-footer {
-  display: flex;
-}
-
-.icons-footer .icon + .icon {
-  margin-left: 10px;
-}
 
 .footer .connect {
   margin-top: 48px;
@@ -613,12 +629,20 @@ input::placeholder {
   margin-bottom: 30px;
 }
 
+.flex-examples-elements:hover,
+.flex-examples-elements:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  
+}
+
 .card-content {
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  overflow: hidden;
+
 }
 
 .examples .examples-headings {
