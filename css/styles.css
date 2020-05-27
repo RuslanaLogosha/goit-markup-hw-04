@@ -154,9 +154,10 @@ header {
 }
 
 .site-auth .link {
-  display: block;
+  display: inline-flex;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 32px; 
+  align-items: center;
 
   font-weight: 500;
   line-height: 1.14;
@@ -169,13 +170,24 @@ header {
   color: var(--accent-text-color);
 }
 
-.site-auth .item::before {
-  display: block;
+.site-auth .link::before {
   content: "";
-  height: 120px;
-  background-color: #F5F4FA;
+  margin-right: 10px;
+  background-repeat: no-repeat;
 }
 
+.mail::before {
+  width: 16px;
+  height: 11px;
+  background-image: url('../images/mail.svg');
+}
+
+.tel::before {
+  width: 10px;
+  height: 15px;
+  background-image: url('../images/tel.svg');
+
+}
 
 /* Hero */
 .hero {
