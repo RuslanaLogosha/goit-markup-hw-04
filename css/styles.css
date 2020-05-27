@@ -292,6 +292,7 @@ header {
 }
 
 .advantages .advantages-titles {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -309,9 +310,6 @@ header {
   letter-spacing: 0.03em;
 }
 
-.list .advan-img {
-  margin-bottom: 30px;
-}
 
 .advantages-item {
   width: calc((100% - 90px) / 4);
@@ -319,6 +317,33 @@ header {
 
 .advantages-item + .advantages-item {
   margin-left: 30px;
+}
+
+.advantages-list .advantages-item::before {
+  content: "";
+  display: block;
+
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-background-color);
+}
+
+.antenna::before {
+  background-image: url('../images/antenna.svg');
+}
+
+.clock::before {
+  background-image: url('../images/clock.svg');
+}
+
+.diagram::before {
+  background-image: url('../images/diagram.svg');
+}
+
+.astronaut::before {
+  background-image: url('../images/astronaut.svg');
 }
 
 /* General for specialization, team and customers h2*/
