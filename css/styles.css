@@ -157,8 +157,7 @@ header {
   display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px; 
-  align-items: center;
-
+  
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -170,7 +169,26 @@ header {
   color: var(--accent-text-color);
 }
 
-.site-auth .link::before {
+.icon-mail {
+  margin-right: 10px;
+}
+
+.icon-mail:hover {
+  --color4: var(--accent-text-color);
+}
+
+.icon-tel {
+  margin-right: 10px;
+}
+
+.icon-tel:hover {
+  --color4: var(--accent-text-color);
+}
+
+
+/*________________ Использование ::before ________________*/
+/* .tel and .mail in the a  */
+/* .site-auth .link::before {
   content: "";
   margin-right: 10px;
   background-repeat: no-repeat;
@@ -187,7 +205,7 @@ header {
   height: 15px;
   background-image: url('../images/tel.svg');
 
-}
+} */
 
 /* Hero */
 .hero {
