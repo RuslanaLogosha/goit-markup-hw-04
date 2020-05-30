@@ -169,25 +169,20 @@ header {
   color: var(--primary-text-color);
 }
 
-.site-auth-button:hover + a,
-.site-auth-button:focus + a {
-  color: var(--accent-text-color);
-}
 
-.site-auth-button .link:hover,
-.site-auth-button .link:focus {
-  color: var(--accent-text-color);
-}
 
 
 .site-auth-icon {
   margin-right: 10px;
 }
 
-.site-auth-icon:hover {
-  --color4: var(--accent-text-color);
+.site-auth-button:hover a {
+  color: var(--accent-text-color);
 }
 
+.site-auth-button:hover svg {
+  --color4: var(--accent-text-color);
+}
 
 
 /* Hero */
