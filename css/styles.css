@@ -153,59 +153,35 @@ header {
   margin-left: 30px;
 }
 
-.site-auth .link {
-  display: inline-flex;
+.site-auth-button {
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px; 
-  
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.site-auth .link:hover,
-.site-auth .link:focus {
+.site-auth-button .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-auth-button:hover + a,
+.site-auth-button:focus + a {
   color: var(--accent-text-color);
 }
 
-.icon-mail {
+
+
+.site-auth-icon {
   margin-right: 10px;
 }
 
-.icon-mail:hover {
-  --color4: var(--accent-text-color);
-}
-
-.icon-tel {
-  margin-right: 10px;
-}
-
-.icon-tel:hover {
+.site-auth-icon:hover {
   --color4: var(--accent-text-color);
 }
 
 
-/*________________ Использование ::before ________________*/
-/* .tel and .mail in the a  */
-/* .site-auth .link::before {
-  content: "";
-  margin-right: 10px;
-  background-repeat: no-repeat;
-}
-
-.mail::before {
-  width: 16px;
-  height: 11px;
-  background-image: url('../images/mail.svg');
-}
-
-.tel::before {
-  width: 10px;
-  height: 15px;
-  background-image: url('../images/tel.svg');
-
-} */
 
 /* Hero */
 .hero {
