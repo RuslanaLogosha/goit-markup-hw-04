@@ -11,6 +11,7 @@
   --footer-background-color: #2F303A;
   --footer-opaque-color: rgba(255, 255, 255, 0.6);
   --signature-text-color: rgba(255, 255, 255, 0.4);
+  --icons-color: #AFB1B8;
 }
 
 /* Утилиты */
@@ -139,7 +140,7 @@ header {
   color: var(--accent-text-color);
 }
 
-.site-nav .link .current {
+.site-nav .link.current {
   color: var(--accent-text-color);
 }
 
@@ -191,32 +192,6 @@ header {
 .site-auth-button:focus svg {
   --color4: var(--accent-text-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.site-auth-icon {
-  margin-right: 10px;
-}
-
-.site-auth-button:hover a {
-  color: var(--accent-text-color);
-}
-
-.site-auth-button:hover svg {
-  --color4: var(--accent-text-color);
-} */
 
 
 /* Hero */
@@ -462,7 +437,31 @@ header {
   margin-left: 10px;
 }
 
-.icons-list .social::before {
+.team-icon {
+  width: 44px;
+  height: 44px;
+  fill: var(--icons-color);
+  border-radius: 50%;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+  fill: var(--main-title-color);
+  background-color: var(--accent-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .icons-list .social::before {
   content: "";
   display: inline-block;
   width: 44px;
@@ -484,7 +483,7 @@ header {
 
 .icons-list .linkedin::before {
   background-image: url('../images/in.svg');
-}
+} */
 
 
 /* Regular customers */
