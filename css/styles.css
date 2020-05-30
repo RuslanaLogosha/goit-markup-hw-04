@@ -139,7 +139,7 @@ header {
   color: var(--accent-text-color);
 }
 
-.site-nav .link.current {
+.site-nav .link .current {
   color: var(--accent-text-color);
 }
 
@@ -164,6 +164,9 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-text-color);
 }
 
 .site-auth-button:hover + a,
@@ -171,6 +174,10 @@ header {
   color: var(--accent-text-color);
 }
 
+.site-auth-button .link:hover,
+.site-auth-button .link:focus {
+  color: var(--accent-text-color);
+}
 
 
 .site-auth-icon {
