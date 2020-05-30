@@ -169,9 +169,43 @@ header {
   color: var(--primary-text-color);
 }
 
+.site-auth-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.site-auth-icon {
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+}
+
+.site-auth-button:hover a, 
+.site-auth-button:focus a {
+  color: var(--accent-text-color);
+}
+
+.site-auth-button:hover svg, 
+.site-auth-button:focus svg {
+  --color4: var(--accent-text-color);
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .site-auth-icon {
   margin-right: 10px;
 }
@@ -182,7 +216,7 @@ header {
 
 .site-auth-button:hover svg {
   --color4: var(--accent-text-color);
-}
+} */
 
 
 /* Hero */
