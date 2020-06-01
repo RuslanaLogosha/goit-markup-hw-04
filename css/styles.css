@@ -538,6 +538,7 @@ header {
 .address {
   padding-bottom: 28px;
 }
+
 .address .exact-address {
   margin-top: 0;
   
@@ -568,7 +569,7 @@ header {
   color: var(--main-title-color);
 }
 
-.team-icon {
+.footer-container .team-icon {
   width: 44px;
   height: 44px;
   fill: var(--main-title-color);
