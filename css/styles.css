@@ -400,8 +400,8 @@ header {
   text-align: center;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   background: #FFFFFF;
-  border-radius: 4px;
-  overflow: hidden;
+  /* border-radius: 4px;
+  overflow: hidden; */
 }
 
 .team-item + .team-item {
@@ -500,26 +500,6 @@ header {
   border-color: #2196F3;
 }
 
-
-
-/* <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="44" height="49">
-                    <use href="./images/sprite.svg#icon-logo-1"></use>
-                  </svg></div
-              ></a>
-            </li>
-.company-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-  fill: #AFB1B8;
-} */
 
 /* Footer */
 /* Adress  */
@@ -658,8 +638,8 @@ input::placeholder {
 
 .flex-examples-elements {
   width: calc((100% - 60px) / 3);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
   overflow: hidden;
 }
 
@@ -681,9 +661,9 @@ input::placeholder {
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
-  border-bottom-left-radius: 5px;
+  /* border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  overflow: hidden;
+  overflow: hidden; */
 
 }
 
