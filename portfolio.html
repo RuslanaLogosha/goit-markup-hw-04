@@ -16,19 +16,30 @@
   
         <ul class="site-nav list">
           <li class="item"><a href="./index.html" class="link ancor">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link ancor current">Портфолио</a></li>
+          <li class="item"><a href="./portfolio.html" class="link current ancor">Портфолио</a></li>
           <li class="item"><a href="#" class="link ancor">Контакты</a></li>
         </ul>
       </nav>
   
       <ul class="site-auth list">
         <li class="item">
-          <a href="mailto:info@devstudio.com" class="link ancor mail">
-          info@devstudio.com</a>
+          <span class="site-auth-button">
+            <a href="mailto:info@devstudio.com" class="site-auth-link link">
+              <svg class="site-auth-icon" width="16" height="11.2">
+              <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+            info@devstudio.com</a>
+          </span>
+          
         </li>
         <li class="item">
-          <a href="tel:+380961111111" class="link ancor tel">
-          +38 096 111 11 11</a>
+          <span class="site-auth-button">
+            <a href="tel:+380961111111" class="site-auth-link link">
+              <svg class="site-auth-icon" width="10" height="14.94">
+              <use href="./images/sprite.svg#icon-tel"></use>
+            </svg>
+              +38 096 111 11 11</a>
+          </span>
         </li>
       </ul>
     </div>
@@ -139,6 +150,7 @@
 
  <!-- Footer -->  
  <footer class="footer">
+
   <div class="container footer-flex">
     <address class="address footer-container">
       <p class="footer-logo"><span class="web">Web</span> Studio</p>
@@ -149,11 +161,32 @@
 
     <div class="connect-container footer-container">
       <p class="connect">Присоединяйтесь</p>
-    <ul class="list icons-footer">
-      <li class="icon"><a href="#" aria-label="Ссылка на Instagram"><img src="./images/insta_white.svg" alt="Instagram"></a></li>
-      <li class="icon"><a href="#" aria-label="Ссылка на Twitter"><img src="./images/twit.svg" alt="Twitter"></a></li>
-      <li class="icon"><a href="#" aria-label="Ссылка на Facebook"><img src="./images/fb.svg" alt="Facebook"></a></li>
-      <li class="icon"><a href="#" aria-label="Ссылка на Linkedin"><img src="./images/in.svg" alt="Linkedin"></a></li>
+      <ul class="icons-list list">
+        <li>
+          <a href="" aria-label="Ссылка на Instagram">
+          <svg class="team-icon" width="44" height="44">
+            <use href="./images/sprite.svg#icon-insta"></use>
+          </svg>
+        </a>
+      </li>
+        <li><a href="" aria-label="Ссылка на Twitter">
+          <svg class="team-icon" width="44" height="44">
+            <use href="./images/sprite.svg#icon-twit"></use>
+          </svg>
+        </a>
+      </li>
+        <li><a href="" aria-label="Ссылка на Facebook">
+          <svg class="team-icon" width="44" height="44">
+            <use href="./images/sprite.svg#icon-fb"></use>
+          </svg>
+        </a>
+      </li>
+        <li><a href="" aria-label="Ссылка на Linkedin">
+          <svg class="team-icon" width="44" height="44">
+            <use href="./images/sprite.svg#icon-in"></use>
+          </svg>
+        </a>
+      </li>
     </ul>
     </div>
       
@@ -165,7 +198,7 @@
     
   </div>
   <p class="copyright">2020 | Developed by GoIT Students </p> 
-
+  
 </footer>
 
 </body>
